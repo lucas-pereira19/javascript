@@ -19,10 +19,10 @@
             var res = window.document.querySelector('div#res')
             var pais = (txtpais.value)
             res.innerHTML = `<p>Seu país de origem é <strong>${pais}.</strong> </p>`
-            if (pais == Brasil) {
+            if (pais == 'Brasil') {
                 res.innerHTML += `<p> Você é <strong>BRASILEIRO!</strong></p>`
             } else {
-            res.innerHTML += `<p> Você é <strong>ESTRANGEIRO!</strong> </p>`
+                res.innerHTML += `<p> Você é <strong>ESTRANGEIRO!</strong> </p>`
             }
         }
 
